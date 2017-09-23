@@ -106,13 +106,13 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo使用总结">
 <meta property="og:url" content="http://yoursite.com/2017/09/23/hexo使用总结/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="MRLuo">
 <meta property="og:description" content="踩坑我踩坑，我快乐">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2017/09/23/hexo使用总结/img2.jpg">
 <meta property="og:image" content="http://yoursite.com/2017/09/23/hexo使用总结/img1.jpg">
 <meta property="og:image" content="http://yoursite.com/2017/09/23/hexo使用总结/img3.jpg">
-<meta property="og:updated_time" content="2017-09-23T09:45:49.024Z">
+<meta property="og:updated_time" content="2017-09-23T09:51:11.289Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo使用总结">
 <meta name="twitter:description" content="踩坑我踩坑，我快乐">
@@ -151,7 +151,7 @@
 
 
 
-  <title>hexo使用总结 | Hexo</title>
+  <title>hexo使用总结 | MRLuo</title>
   
 
 
@@ -187,7 +187,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">MRLuo</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -303,7 +303,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="MRLuo">
     </span>
 
     
@@ -363,6 +363,17 @@
 
           
           
+             <span id="/2017/09/23/hexo使用总结/" class="leancloud_visitors" data-flag-title="hexo使用总结">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
 
           
 
@@ -377,7 +388,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  883字
+                  895字
                 </span>
               
 
@@ -420,12 +431,12 @@
 <h3 id="修改代码块自定义样式"><a href="#修改代码块自定义样式" class="headerlink" title="修改代码块自定义样式"></a>修改代码块自定义样式</h3><p>打开\themes\next\source\css_custom\custom.styl,向里面加入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">// 大代码块的自定义样式</div><div class="line">.highlight, pre &#123;</div><div class="line">    margin: 5px 0;</div><div class="line">    padding: 5px;</div><div class="line">    border-radius: 3px;</div><div class="line">    color:#ff7600;</div><div class="line">&#125;</div><div class="line">.highlight, pre &#123;</div><div class="line">    border: 1px solid #d6d6d6;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <h3 id="侧边栏社交链接"><a href="#侧边栏社交链接" class="headerlink" title="侧边栏社交链接"></a>侧边栏社交链接</h3><p>打开主题配置文件（_config.yml），搜索social,添加需要分享到的网站<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Social links</div><div class="line">social:</div><div class="line">  GitHub: https://github.com/your-user-name</div><div class="line">  微博: http://weibo.com/your-user-name</div><div class="line">  豆瓣: http://douban.com/people/your-user-name</div><div class="line">  知乎: http://www.zhihu.com/people/your-user-name</div></pre></td></tr></table></figure></p>
 <p>网站图标在下面的social_icons字段中,next主题的图标来自<a href="http://fontawesome.io/icons/" target="_blank" rel="external">http://fontawesome.io/icons/</a>,在里面找到喜欢图标，赋值粘贴过来即可<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">social_icons:</div><div class="line">微博: weibo</div></pre></td></tr></table></figure></p>
-<h3 id="如何插图"><a href="#如何插图" class="headerlink" title="如何插图"></a>如何插图</h3><p>在_config.yml中找到如下字段,并把其值改为true<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">post_asset_folder: true</div></pre></td></tr></table></figure></p>
+<h3 id="如何插图"><a href="#如何插图" class="headerlink" title="如何插图"></a>如何插图</h3><p>在_config.yml中找到如下字段,将其值改为true<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">post_asset_folder: true</div></pre></td></tr></table></figure></p>
 <p>在安装一个插件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-asset-image --save</div></pre></td></tr></table></figure></p>
 <p>这个插件的作用 ，当新建文章时，还会生成一个和文章同名的文件夹，将图片放在这个文件夹里面，就可以正常的使用markdown语法引用图片了。<br><img src="/2017/09/23/hexo使用总结/img1.jpg" alt="img1.jpg"></p>
 <h3 id="添加字数统计"><a href="#添加字数统计" class="headerlink" title="添加字数统计"></a>添加字数统计</h3><p>在根目录下安装hexo-wordcount，运行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-wordcount --save</div></pre></td></tr></table></figure></p>
 <p>然后在主题的配置文件中，配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Post wordcount display settings</div><div class="line"># Dependencies: https://github.com/willin/hexo-wordcount</div><div class="line">post_wordcount:</div><div class="line">  item_text: true</div><div class="line">  wordcount: true</div><div class="line">  min2read: true</div></pre></td></tr></table></figure></p>
-<p>可以正常显示了，但是非常丑，想让他换一行显示<br><img src="/2017/09/23/hexo使用总结/img3.jpg" alt=""><br>做法很简单，查看页面css样式，发现有一个<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">.post-wordcount&#123;</div><div class="line">    display：inline-block</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>可以正常显示了，但是非常丑，换行显示会好看的多<br><img src="/2017/09/23/hexo使用总结/img3.jpg" alt=""><br>做法很简单，查看页面css样式，发现它不换行的原因是这个inline-block导致的。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">.post-wordcount&#123;</div><div class="line">    display：inline-block</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>打开源文件：themes\next\layout_macro\post.swig，将这个class删除，就达到了换行的效果</p>
 <h3 id="隐藏网页底部多余样式内容"><a href="#隐藏网页底部多余样式内容" class="headerlink" title="隐藏网页底部多余样式内容"></a>隐藏网页底部多余样式内容</h3><p>powered By Hexo / 强力驱动，页面底部有这些鬼东西，十分碍眼，暴力删除<br>打开themes/next/layout/_partials/footer.swig,搜索powered-by/theme-info，删除这2个div即可</p>
 <h3 id="添加顶部加载条"><a href="#添加顶部加载条" class="headerlink" title="添加顶部加载条"></a>添加顶部加载条</h3><p>在主题配置文件中搜索pace字段，将其值改成true,同时发现下面还有一堆注释掉的内容，这些都是加载条的样式。往下看还有一个pace_theme字段，代表加载条样式。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"># Progress bar in the top during page loading.</div><div class="line">pace: true</div><div class="line">#Themes list:</div><div class="line">#pace-theme-big-counter</div><div class="line">#pace-theme-bounce</div><div class="line">#pace-theme-barber-shop</div><div class="line">#pace-theme-center-atom</div><div class="line">#pace-theme-center-circle</div><div class="line">#pace-theme-center-radar</div><div class="line">#pace-theme-center-simple</div><div class="line">#pace-theme-corner-indicator</div><div class="line">#pace-theme-fill-left</div><div class="line">#pace-theme-flash</div><div class="line">#pace-theme-loading-bar</div><div class="line">#pace-theme-mac-osx</div><div class="line">#pace-theme-minimal</div><div class="line"># For example</div><div class="line"># pace_theme: pace-theme-center-simple</div><div class="line">pace_theme: pace-theme-mac-osx</div></pre></td></tr></table></figure></p>
@@ -792,6 +803,113 @@
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("mXnn7F6o5XVQebjDIw5SLfwL-gzGzoHsz", "DBb3oB85KIMQ9gj2qw33Wupm");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
