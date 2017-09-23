@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="note," />
+  <meta name="keywords" content="life," />
 
 
 
@@ -95,14 +95,14 @@
 
 
 <meta name="description" content="踩坑之前花了一天时间弄博客，在本地一切弄好了就等部署到GitHub上，结果部署完后页面没有css样式，于是删了GitHub上的库，重新部署，还是没有样式；这个步骤反复了三四次，每次结果都一样。于是我在第五次新建GitHub库的时候没有勾选 Initialize this repository with a README。接着部署，页面可以正常显示了。但是又出问题了，本地的页面预览报错，这期间我并没">
-<meta name="keywords" content="note">
+<meta name="keywords" content="life">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建博客记录">
 <meta property="og:url" content="http://yoursite.com/2017/09/23/搭建博客记/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="踩坑之前花了一天时间弄博客，在本地一切弄好了就等部署到GitHub上，结果部署完后页面没有css样式，于是删了GitHub上的库，重新部署，还是没有样式；这个步骤反复了三四次，每次结果都一样。于是我在第五次新建GitHub库的时候没有勾选 Initialize this repository with a README。接着部署，页面可以正常显示了。但是又出问题了，本地的页面预览报错，这期间我并没">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-23T07:37:14.248Z">
+<meta property="og:updated_time" content="2017-09-23T08:26:53.251Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建博客记录">
 <meta name="twitter:description" content="踩坑之前花了一天时间弄博客，在本地一切弄好了就等部署到GitHub上，结果部署完后页面没有css样式，于是删了GitHub上的库，重新部署，还是没有样式；这个步骤反复了三四次，每次结果都一样。于是我在第五次新建GitHub库的时候没有勾选 Initialize this repository with a README。接着部署，页面可以正常显示了。但是又出问题了，本地的页面预览报错，这期间我并没">
@@ -234,7 +234,7 @@
         <li class="menu-item menu-item-life">
           <a href="/categories/life" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-shower"></i> <br />
             
             生活
           </a>
@@ -244,7 +244,7 @@
         <li class="menu-item menu-item-technology">
           <a href="/categories/technology" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-code"></i> <br />
             
             技术
           </a>
@@ -323,6 +323,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/life/" itemprop="url" rel="index">
+                    <span itemprop="name">life</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -333,6 +355,37 @@
 
           
 
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计</span>
+                
+                <span title="字数统计">
+                  498字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长</span>
+                
+                <span title="阅读时长">
+                  2分钟
+                </span>
+              
+            </div>
           
 
           
@@ -352,10 +405,12 @@
       
         <h2 id="踩坑"><a href="#踩坑" class="headerlink" title="踩坑"></a>踩坑</h2><p>之前花了一天时间弄博客，在本地一切弄好了就等部署到GitHub上，结果部署完后页面没有css样式，于是删了GitHub上的库，重新部署，还是没有样式；这个步骤反复了三四次，每次结果都一样。于是我在第五次新建GitHub库的时候没有勾选 Initialize this repository with a README。接着部署，页面可以正常显示了。但是又出问题了，本地的页面预览报错，这期间我并没有做什么操作，于是瞬间就不耐烦了，一怒之下删了全部文件从头再来。<br><a id="more"></a></p>
 <h2 id="页面样式优化"><a href="#页面样式优化" class="headerlink" title="页面样式优化"></a>页面样式优化</h2><p>样式的优化就是修改一些文件的内容，但是想要找到目标在哪个文件下是一件非常麻烦的事情，所以直接百度，为了方便查阅，所以将方法收藏到自己的博客上。</p>
-<h3 id="修改文章底部的那个带-号的标签"><a href="#修改文章底部的那个带-号的标签" class="headerlink" title="修改文章底部的那个带#号的标签"></a>修改文章底部的那个带#号的标签</h3><p>打开/themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将#换成<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="页面显示中文"><a href="#页面显示中文" class="headerlink" title="页面显示中文"></a>页面显示中文</h3><h3 id="修改文章底部的那个带-号的标签"><a href="#修改文章底部的那个带-号的标签" class="headerlink" title="修改文章底部的那个带#号的标签"></a>修改文章底部的那个带#号的标签</h3><p>打开/themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将#换成<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;</div></pre></td></tr></table></figure></p>
 <h3 id="修改代码块自定义样式"><a href="#修改代码块自定义样式" class="headerlink" title="修改代码块自定义样式"></a>修改代码块自定义样式</h3><p>打开\themes\next\source\css_custom\custom.styl,向里面加入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">// 大代码块的自定义样式</div><div class="line">.highlight, pre &#123;</div><div class="line">    margin: 5px 0;</div><div class="line">    padding: 5px;</div><div class="line">    border-radius: 3px;</div><div class="line">    color:#ff7600;</div><div class="line">&#125;</div><div class="line">.highlight, pre &#123;</div><div class="line">    border: 1px solid #d6d6d6;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <h3 id="侧边栏社交链接"><a href="#侧边栏社交链接" class="headerlink" title="侧边栏社交链接"></a>侧边栏社交链接</h3><p>打开主题配置文件（_config.yml），搜索social,添加需要分享到的网站<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Social links</div><div class="line">social:</div><div class="line">  GitHub: https://github.com/your-user-name</div><div class="line">  微博: http://weibo.com/your-user-name</div><div class="line">  豆瓣: http://douban.com/people/your-user-name</div><div class="line">  知乎: http://www.zhihu.com/people/your-user-name</div></pre></td></tr></table></figure></p>
 <p>网站图标在下面的social_icons字段中,next主题的图标来自<a href="http://fontawesome.io/icons/" target="_blank" rel="external">http://fontawesome.io/icons/</a>,在里面找到喜欢图标，赋值粘贴过来即可<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">social_icons:</div><div class="line">微博: weibo</div></pre></td></tr></table></figure></p>
+<h3 id="添加字数统计"><a href="#添加字数统计" class="headerlink" title="添加字数统计"></a>添加字数统计</h3><p>在根目录下安装hexo-wordcount，运行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-wordcount --save</div></pre></td></tr></table></figure></p>
+<p>然后在主题的配置文件中，配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Post wordcount display settings</div><div class="line"># Dependencies: https://github.com/willin/hexo-wordcount</div><div class="line">post_wordcount:</div><div class="line">  item_text: true</div><div class="line">  wordcount: true</div><div class="line">  min2read: true</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -373,7 +428,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/note/" rel="tag"><i class="fa fa-tag"></i> note</a>
+            <a href="/tags/life/" rel="tag"><i class="fa fa-tag"></i> life</a>
           
         </div>
       
@@ -478,13 +533,22 @@
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
 
           
             
             
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               
             </div>
@@ -543,7 +607,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#踩坑"><span class="nav-number">1.</span> <span class="nav-text">踩坑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#页面样式优化"><span class="nav-number">2.</span> <span class="nav-text">页面样式优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#修改文章底部的那个带-号的标签"><span class="nav-number">2.1.</span> <span class="nav-text">修改文章底部的那个带#号的标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改代码块自定义样式"><span class="nav-number">2.2.</span> <span class="nav-text">修改代码块自定义样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#侧边栏社交链接"><span class="nav-number">2.3.</span> <span class="nav-text">侧边栏社交链接</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#踩坑"><span class="nav-number">1.</span> <span class="nav-text">踩坑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#页面样式优化"><span class="nav-number">2.</span> <span class="nav-text">页面样式优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#页面显示中文"><span class="nav-number">2.1.</span> <span class="nav-text">页面显示中文</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改文章底部的那个带-号的标签"><span class="nav-number">2.2.</span> <span class="nav-text">修改文章底部的那个带#号的标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改代码块自定义样式"><span class="nav-number">2.3.</span> <span class="nav-text">修改代码块自定义样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#侧边栏社交链接"><span class="nav-number">2.4.</span> <span class="nav-text">侧边栏社交链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加字数统计"><span class="nav-number">2.5.</span> <span class="nav-text">添加字数统计</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -574,9 +638,10 @@
 </div>
 
 
+<!--
 <div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+    由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+  </div>
 
 <div class="theme-info">
   主题 -
@@ -584,6 +649,7 @@
     NexT.Mist
   </a>
 </div>
+-->
 
 
         
