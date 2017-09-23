@@ -1080,7 +1080,7 @@ pre .javascript .function {
 }
 .site-meta {
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -2614,7 +2614,7 @@ hr {
   }
 }
 .site-meta {
-  float: left;
+  float: none;
   margin-left: -20px;
   line-height: normal;
 }
@@ -2660,7 +2660,6 @@ hr {
 .logo-line-before i,
 .logo-line-after i {
   position: relative;
-  display: block;
   height: 2px;
   background: #222;
 }
@@ -2684,7 +2683,7 @@ hr {
   float: right;
 }
 .menu {
-  float: right;
+  float: none;
   margin: 8px 0 0 0;
 }
 @media (max-width: 767px) {
