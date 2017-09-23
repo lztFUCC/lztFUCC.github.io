@@ -1807,7 +1807,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d5db38;
+  background: #742fc6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2890,7 +2890,7 @@ hr {
 .header {
   background: url("/images/bk.png") center -500px;
 }
-.header .logo-line-before i,
+.logo-line-before i,
 .header .logo-line-after i {
   display: none;
 }
