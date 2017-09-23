@@ -1807,7 +1807,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #742fc6;
+  background: #b5097d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2887,28 +2887,6 @@ hr {
     text-align: center;
   }
 }
-.header {
-  background: url("/images/bk.png") center -500px;
-}
-.logo-line-before i,
-.header .logo-line-after i {
-  display: none;
-}
-.site-meta {
-  float: none;
-  text-align: center;
-}
-.menu {
-  float: none;
-}
-.site-meta .site-title {
-  font-size: 38px;
-  font-family: 'Comic Sans MS', sans-serif;
-  color: #fff;
-}
-.menu a {
-  color: #fff;
-}
 .posts-expand .post-title,
 .posts-expand .post-meta {
   text-align: center;
@@ -2925,6 +2903,32 @@ hr {
   transition: 0.2s ease-out;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   padding: 0 20px;
+}
+.header {
+  background: url("/images/bk.png") center -500px;
+}
+.logo-line-before i,
+.logo-line-after i {
+  display: none;
+}
+.site-meta {
+  float: none;
+  text-align: center;
+}
+.menu {
+  float: none;
+}
+.site-meta {
+  margin-left: 0px;
+  text-align: center;
+}
+.site-meta .site-title {
+  font-size: 38px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #fff;
+}
+.menu a {
+  color: #fff;
 }
 .highlight,
 pre {
