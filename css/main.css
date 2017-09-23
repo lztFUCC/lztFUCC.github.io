@@ -1080,7 +1080,7 @@ pre .javascript .function {
 }
 .site-meta {
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -1807,7 +1807,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a4ff95;
+  background: #d5db38;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2593,7 +2593,7 @@ hr {
   margin-top: 80px;
 }
 .header {
-  background:url(/images/bk.png) center -500px;
+  background: #f5f5f5;
 }
 .header-inner {
   padding: 25px 0 20px;
@@ -2614,7 +2614,7 @@ hr {
   }
 }
 .site-meta {
-  float: none;
+  float: left;
   margin-left: -20px;
   line-height: normal;
 }
@@ -2660,6 +2660,7 @@ hr {
 .logo-line-before i,
 .logo-line-after i {
   position: relative;
+  display: block;
   height: 2px;
   background: #222;
 }
@@ -2683,7 +2684,7 @@ hr {
   float: right;
 }
 .menu {
-  float: none;
+  float: right;
   margin: 8px 0 0 0;
 }
 @media (max-width: 767px) {
@@ -2886,6 +2887,28 @@ hr {
     text-align: center;
   }
 }
+.header {
+  background: url("/images/bk.png") center -500px;
+}
+.header .logo-line-before i,
+.header .logo-line-after i {
+  display: none;
+}
+.site-meta {
+  float: none;
+  text-align: center;
+}
+.menu {
+  float: none;
+}
+.site-meta .site-title {
+  font-size: 38px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #fff;
+}
+.menu a {
+  color: #fff;
+}
 .posts-expand .post-title,
 .posts-expand .post-meta {
   text-align: center;
@@ -2913,9 +2936,6 @@ pre {
 .highlight,
 pre {
   border: 1px solid #d6d6d6;
-}
-.post-wordcount {
-  display: block;
 }
 .footer {
   background: transparent;
